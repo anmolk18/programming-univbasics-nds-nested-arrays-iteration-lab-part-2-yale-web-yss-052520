@@ -10,9 +10,10 @@ row_index = 0
       if src[row_index][element_index] < min_num 
         min_num = src[row_index][element_index]
       end 
-      element_index+= 1 
+      element_index += 1 
     end
     outer_results << min_num
-    row_index += 1 
+    row_index += 1
+  end 
+outer_results
 end
-outer_results 
